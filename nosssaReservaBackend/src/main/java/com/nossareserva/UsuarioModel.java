@@ -10,7 +10,7 @@ public class UsuarioModel implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int idUsuario;
+    private long id;
     private String userName;
     private String lastName;
     private String email;
@@ -20,12 +20,12 @@ public class UsuarioModel implements Serializable {
     private String status;
 
 
-    public int getIdUsuario() {
-        return idUsuario;
+    public long getId() {
+        return id;
     }
 
-    public void setIdUsuario(int idUsuario) {
-        this.idUsuario = idUsuario;
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getUserName() {

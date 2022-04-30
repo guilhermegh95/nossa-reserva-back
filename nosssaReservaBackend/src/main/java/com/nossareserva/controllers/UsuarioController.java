@@ -29,7 +29,7 @@ public class UsuarioController {
     }
 
     @GetMapping("/usuario/{id}")
-    public ResponseEntity<UsuarioModel> getOneUsuario(@PathVariable(value =  "id") long id) {
+    public ResponseEntity<UsuarioModel> getOneUsuario(@PathVariable(value="id") long id) {
         Optional<UsuarioModel> usuarioUnitario = usuarioRepository.findById(id);
         if(!usuarioUnitario.isPresent()) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
