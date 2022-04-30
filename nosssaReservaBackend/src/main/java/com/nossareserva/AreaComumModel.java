@@ -10,17 +10,17 @@ public class AreaComumModel implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int idAreaComum;
+    private long idAreaComum;
     private String name;
     private String photoUrl;
     private String tag;
     private boolean status;
 
-    public int getIdAreaComum() {
+    public long getIdAreaComum() {
         return idAreaComum;
     }
 
-    public void setIdAreaComum(int idAreaComum) {
+    public void setIdAreaComum(long idAreaComum) {
         this.idAreaComum = idAreaComum;
     }
 

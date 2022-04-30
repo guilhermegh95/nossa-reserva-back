@@ -11,18 +11,18 @@ public class ReservaModel implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int idReserva;
+    private long idReserva;
     private int carvao;
     private int gelo;
     private String data ;
     private String horas;
     private String morador;
 
-    public int getIdReserva() {
+    public long getIdReserva() {
         return idReserva;
     }
 
-    public void setIdReserva(int idReserva) {
+    public void setIdReserva(long idReserva) {
         this.idReserva = idReserva;
     }
 
