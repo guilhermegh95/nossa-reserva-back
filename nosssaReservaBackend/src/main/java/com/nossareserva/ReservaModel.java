@@ -19,7 +19,7 @@ public class ReservaModel implements Serializable {
     private String morador;
 
     public long getIdReserva() {
-        return idReserva;
+        return this.idReserva;
     }
 
     public void setIdReserva(long idReserva) {

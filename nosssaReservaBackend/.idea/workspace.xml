@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="91c5bde5-5ad6-4c69-af3d-e9b41b0a38ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nossareserva/controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/controllers/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nossareserva/AreaComumModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nossareserva/AreaComumModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nossareserva/ReservaModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nossareserva/ReservaModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nossareserva/ReservaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/ReservaModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nossareserva/controllers/ReservaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/controllers/ReservaController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
