@@ -4,9 +4,8 @@ import com.nossareserva.repositories.AreaComumRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
@@ -36,6 +35,36 @@ public class AreaComumController {
         }
         else {
             return new ResponseEntity<AreaComumModel>(areaComumUnidade.get(), HttpStatus.OK);
+        }
+    }
+
+    @PostMapping("/areacomum")
+    public ResponseEntity<AreaComumModel> saveAreaComum(@RequestBody @Validated AreaComumModel areaComum){
+        return new ResponseEntity<AreaComumModel>(areaComumRepository.save(areaComum), HttpStatus.CREATED);
+    }
+
+    @DeleteMapping("/areacomum/{id}")
+    public ResponseEntity<?> deleteAreaComum(@PathVariable(value = "id") long id) {
+        Optional<AreaComumModel> areaComumUnitaria = areaComumRepository.findById(id);
+        if(!areaComumUnitaria.isPresent()) {
+            return  new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+        else {
+            areaComumRepository.delete(areaComumUnitaria.get());
+            return new ResponseEntity<>(HttpStatus.OK);
+        }
+    }
+
+    @PutMapping("/areacomum/{id}")
+    public ResponseEntity<AreaComumModel> updateAreaComum(@PathVariable (value = "id") long id,
+                                                          @RequestBody @Validated AreaComumModel areaComum) {
+        Optional<AreaComumModel> areaComumUnitaria = areaComumRepository.findById(id);
+        if(!areaComumUnitaria.isPresent()) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+        else {
+            areaComum.setIdAreaComum(areaComumUnitaria.get().getIdAreaComum());
+            return new ResponseEntity<AreaComumModel>(areaComumRepository.save(areaComum), HttpStatus.OK);
         }
     }
 }
