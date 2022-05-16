@@ -10,12 +10,14 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+@CrossOrigin
 @RestController
 public class CondominioController {
 
     @Autowired
     CondominioRepository condominioRepository;
 
+    @CrossOrigin
     @GetMapping("/condominio")
     public ResponseEntity<List<CondominioModel>> getAllCondominio(){
         List<CondominioModel> condominioList = condominioRepository.findAll();
@@ -28,6 +30,7 @@ public class CondominioController {
 
     }
 
+    @CrossOrigin
     @PostMapping("/condominio")
     public ResponseEntity<CondominioModel> saveReserva(@RequestBody @Validated CondominioModel condominio) {
         return new ResponseEntity<CondominioModel>(condominioRepository.save(condominio), HttpStatus.CREATED);

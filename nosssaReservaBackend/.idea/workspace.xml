@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91c5bde5-5ad6-4c69-af3d-e9b41b0a38ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/CondominioModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/controllers/CondominioController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/repositories/CondominioRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nossareserva/controllers/AreaComumController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nossareserva/controllers/AreaComumController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nossareserva/controllers/ReservaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nossareserva/controllers/ReservaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nossareserva/controllers/CondominioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/controllers/CondominioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nossareserva/controllers/CondominioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nossareserva/controllers/CondominioController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
