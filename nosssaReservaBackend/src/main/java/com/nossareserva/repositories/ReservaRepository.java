@@ -1,6 +1,6 @@
 package com.nossareserva.repositories;
 
-import com.nossareserva.ReservaModel;
+import com.nossareserva.model.ReservaModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

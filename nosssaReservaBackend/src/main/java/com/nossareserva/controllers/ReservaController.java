@@ -1,6 +1,6 @@
 package com.nossareserva.controllers;
 
-import com.nossareserva.ReservaModel;
+import com.nossareserva.model.ReservaModel;
 import com.nossareserva.repositories.ReservaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

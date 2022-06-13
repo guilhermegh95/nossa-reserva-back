@@ -1,4 +1,4 @@
-package com.nossareserva;
+package com.nossareserva.model;
 
 import javax.persistence.*;
 import java.io.Serializable;

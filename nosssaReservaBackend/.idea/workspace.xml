@@ -4,10 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c5bde5-5ad6-4c69-af3d-e9b41b0a38ae" name="Changes" comment="">
+    <list default="true" id="91c5bde5-5ad6-4c69-af3d-e9b41b0a38ae" name="Changes" comment="BD password">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/jwt/mongodb/SpringBootSecurityJwtMongodbApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/jwt/mongodb/controllers/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/jwt/mongodb/controllers/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/jwt/mongodb/models/ERole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/jwt/mongodb/models/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/jwt/mongodb/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/jwt/mongodb/payload/request/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/jwt/mongodb/payload/request/SignupRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/jwt/mongodb/payload/response/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/jwt/mongodb/payload/response/MessageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/jwt/mongodb/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/jwt/mongodb/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/jwt/mongodb/security/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/jwt/mongodb/security/jwt/AuthEntryPointJwt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/jwt/mongodb/security/jwt/AuthTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/jwt/mongodb/security/jwt/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/jwt/mongodb/security/services/UserDetailsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/jwt/mongodb/security/services/UserDetailsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nossareserva/AreaComumModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/model/AreaComumModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nossareserva/CondominioModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/model/CondominioModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nossareserva/ReservaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/model/ReservaModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nossareserva/UsuarioModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/model/UsuarioModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nossareserva/controllers/AreaComumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/controllers/AreaComumController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nossareserva/controllers/CondominioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/controllers/CondominioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nossareserva/controllers/ReservaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/controllers/ReservaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nossareserva/controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/controllers/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nossareserva/repositories/AreaComumRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/repositories/AreaComumRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nossareserva/repositories/CondominioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/repositories/CondominioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nossareserva/repositories/ReservaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/repositories/ReservaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nossareserva/repositories/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nossareserva/repositories/UsuarioRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nossareserva/controllers/CondominioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nossareserva/controllers/CondominioController.class" afterDir="false" />
     </list>
@@ -27,6 +56,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
@@ -37,7 +74,7 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
@@ -53,7 +90,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="exceleditor.install" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../CursoMichelle/demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="NossareservaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -61,7 +98,7 @@
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nossareserva.*" />
+          <option name="PATTERN" value="com.nossareserva.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,6 +132,14 @@
       <option name="presentableId" value="Default" />
       <updated>1651116827333</updated>
     </task>
+    <task id="LOCAL-00001" summary="BD password">
+      <created>1652668426681</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652668426681</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,5 +153,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BD password" />
+    <option name="LAST_COMMIT_MESSAGE" value="BD password" />
   </component>
 </project>

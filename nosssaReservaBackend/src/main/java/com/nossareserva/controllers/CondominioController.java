@@ -1,6 +1,6 @@
 package com.nossareserva.controllers;
 
-import com.nossareserva.CondominioModel;
+import com.nossareserva.model.CondominioModel;
 import com.nossareserva.repositories.CondominioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

@@ -1,5 +1,5 @@
 package com.nossareserva.controllers;
-import com.nossareserva.AreaComumModel;
+import com.nossareserva.model.AreaComumModel;
 import com.nossareserva.repositories.AreaComumRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
